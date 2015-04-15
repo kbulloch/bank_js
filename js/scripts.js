@@ -38,6 +38,7 @@ $(document).ready(function() {
     if(!withdraw) {
       withdraw = 0;
     }
+    
     newAccount.deposit(deposit);
     newAccount.withdraw(withdraw);
 
